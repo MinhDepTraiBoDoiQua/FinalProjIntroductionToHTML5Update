@@ -1,0 +1,44 @@
+/*Style sheet created for externalStyle
+*/
+
+
+header{
+	text-align: center;
+}
+
+h1{
+	line-height: 150%;
+    color: #339BEB;
+    background-color: #dbeb3366;
+    font-family: "Comic Sans MS";
+}
+
+h3{
+	line-height: 120%;
+	background-color: #00B7EA;
+	font-size: 150%;
+    color: #666666;
+    font-variant: small-caps;
+}
+
+span{
+	background-color: yellow;
+	font-weight: bold;
+	font-style: italic;
+}
+
+details{
+    color: red;
+    font-style: italic;
+}
+
+summary{
+	font-style: normal;
+	color: #000000;
+}
+
+footer{
+	background-color: #666666;
+	line-height: 200%;
+	text-align: center;
+}
