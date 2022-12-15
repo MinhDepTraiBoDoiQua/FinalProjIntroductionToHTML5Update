@@ -2,34 +2,54 @@
 */
 
 
+body{
+	background-color: #b3b3b3;
+	font-size: 150%;
+	margin: 3%;
+}
+
 header{
 	text-align: center;
+	background-color: #dbeb3366;
+	padding: 10px;
+	border-radius: 10px;
+	border-width: 3px;
+	border-color: #ffffff;
+	border-style: double;
 }
 
 h1{
-	line-height: 150%;
+	font-size: 300%;
+	line-height: 50%;
     color: #339BEB;
-    background-color: #dbeb3366;
     font-family: "Comic Sans MS";
 }
 
 h3{
 	line-height: 120%;
 	background-color: #00B7EA;
-	font-size: 150%;
+	font-size: 130%;
     color: #666666;
+    padding: 5px;
+    border-radius: 5px;
     font-variant: small-caps;
 }
 
-span{
-	background-color: yellow;
-	font-weight: bold;
-	font-style: italic;
+section{
+	width: 45%;
+	height: 400px;
+	display: inline-block;
+	float: left;
+	margin: 2%;
+	box-sizing: border-box;
+	border-radius: 7px;
+	border: 5px solid #000000;
+	border-style: dashed;
+	padding: 1%;
 }
 
 details{
-    color: red;
-    font-style: italic;
+    font-style: normal;
 }
 
 summary{
@@ -38,7 +58,68 @@ summary{
 }
 
 footer{
+	padding: 7px;
 	background-color: #666666;
-	line-height: 200%;
+	line-height: 100%;
 	text-align: center;
+	clear: both;
+}
+
+div{
+	display: block;
+	background-color: #6a6a6a;
+	width: 330px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 3px;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+audio{
+	display: block;
+	margin: 0 auto;
+	border-radius: 32px;
+	border-style: solid;
+	border-width: 3px;
+}
+
+video{
+	display: block;
+	margin: 0 auto;
+	height: 60%;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #00b7ea;
+}
+
+a{
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	width: 7%;
+	display: inline-block;
+	padding: 5px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #339BEB; 
+}
+
+a:hover, a:focus{
+	background-color: #7e7e7e;
+	color: #333333;
+}
+
+a:active{
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: #000000;
+	border-style: solid;
 }
