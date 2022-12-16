@@ -112,6 +112,40 @@ a{
 	background-color: #339BEB; 
 }
 
+a[href*="youtube"]{
+	background-color: #ff0000;
+}
+
+a[href*="github"]{
+	background-color: #161b22;
+}
+
+a[href*="facebook"]{
+	background-color: #4292ff;
+}
+
+a[href*="tiktok"]{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#footerLink{
+	color: #ffffff;
+	background-color: #333333; 
+}
+
+#footerLink:hover, #footerLink:focus{
+	background-color: #7e7e7e;
+	color: #333333;
+}
+
+#footerLink:active{
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: #000000;
+	border-style: solid;
+}
+
 a:hover, a:focus{
 	background-color: #7e7e7e;
 	color: #333333;
@@ -122,4 +156,4 @@ a:active{
 	border-width: 3px;
 	border-color: #000000;
 	border-style: solid;
-} 
+}
