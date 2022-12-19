@@ -1,0 +1,203 @@
+/*Style sheet created for externalStyle
+*/
+
+
+body{
+	background-color: #b3b3b3;
+	font-size: 150%;
+	margin: 3%;
+}
+
+header{
+	background: -o-linear-gradient(top, #79bf8c 0%, #79bfbe 100%);
+	background: -webkit-gradient(linear, left top, left bottom, from(#79bf8c), to(#79bfbe));
+	background: linear-gradient(top, #79bf8c 0%, #79bfbe 100%);
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	border-width: 3px;
+	border-color: #ffffff;
+	border-style: double;
+}
+
+h1{
+	font-size: 300%;
+	line-height: 50%;
+    color: #307db7;
+    font-family: "Comic Sans MS";
+}
+
+h3{
+	line-height: 120%;
+	background-color: #00B7EA;
+	font-size: 130%;
+	text-transform: uppercase;
+    color: #666666;
+    padding: 5px;
+    border-radius: 5px;
+    font-variant: small-caps;
+}
+
+section{
+	width: 45%;
+	height: 400px;
+	display: inline-block;
+	float: left;
+	margin: 2%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 7px;
+	border: 5px solid #000000;
+	border-style: dashed;
+	padding: 1%;
+}
+
+.mainTab{
+	padding: 3px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.tabPage{
+	display: inline-block;
+	margin-left: 7px;
+    margin-right: 7px;
+	text-align: center;
+	width: 20%;
+	padding: 3px;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #4b4b4b;
+	color: #ffffff;
+}
+
+.active{
+	display: inline-block;
+	margin-left: 7px;
+    margin-right: 7px;
+	text-align: center;
+	width: 20%;
+	padding: 3px;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	background-color: #7e7e7e;
+	border-radius: 5px;
+	color: #333333;
+}
+
+details{
+    font-style: normal;
+}
+
+summary{
+	font-style: normal;
+	color: #000000;
+}
+
+footer{
+	padding: 7px;
+	background-color: #666666;
+	line-height: 130%;
+	text-align: center;
+	clear: both;
+}
+
+div{
+	display: block;
+	background-color: #6a6a6a;
+	width: 330px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 3px;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+audio{
+	display: block;
+	margin: 0 auto;
+	border-radius: 32px;
+	border-style: solid;
+	border-width: 3px;
+}
+
+video{
+	display: block;
+	margin: 0 auto;
+	height: 60%;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #00b7ea;
+}
+
+.socialLink{
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	width: 7%;
+	display: inline-block;
+	padding: 5px;
+	font-weight: bold;
+	color: #ffffff;
+	/*background-color: #339BEB; */
+}
+
+.youtubeLogo{
+	background-color: #ff0000;
+}
+
+.tiktokLogo{
+	background-color: #000000;
+}
+
+.facebookLogo{
+	background-color: #4292ff;
+}
+
+.githubLogo{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#footerLink{
+	border-radius: 5px;
+	width: 80px;
+	padding: 3px;
+	color: #ffffff;
+	background-color: #333333; 
+}
+
+#footerLink:hover, #footerLink:focus{
+	background-color: #7e7e7e;
+	border-radius: 5px;
+	color: #333333;
+}
+
+#footerLink:active{
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+a:hover, a:focus{
+	/*border-radius: 5px;*/
+	background-color: #7e7e7e;
+	color: #333333;
+}
+
+a:active{
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+}
